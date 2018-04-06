@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Firebase LogIn</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>
+        <div id="login_div" class="main-container">
+            <h3>LogIn</h3>
+            <!-- MAKE A WHOLE NEW PAGE FOR LOGIN, WHERE YOU NEED TO LOG IN PRIOR TO BEING ABLE TO ACCESS PAGE -->
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <button onclick="login()">Log In</button>
+        </div>
+
+        <div class="loggedin-div" id="login_check">
+            <h3>Welcome User</h3>
+            <p id="hello_user">Welcome to Firebase web login Example! You are currently logged in!</p>
+            <button onclick="logout()">Log Out</button>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="javascript.js"></script>
+    </body>
+</html>

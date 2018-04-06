@@ -1,0 +1,41 @@
+.main-container, .loggedin-div {
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.main-container input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-container input:focus {
+    border: 1px solid #0888;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-container button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    display: block;
+}
+
+.main-container button:hover, .loggedin-div button:hover {
+    background: #6C9EFF;
+    color: #fff;
+}
